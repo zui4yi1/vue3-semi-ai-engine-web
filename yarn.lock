@@ -3880,10 +3880,10 @@ vue-tsc@^1.8.27:
     "@vue/language-core" "1.8.27"
     semver "^7.5.4"
 
-vue3-semi-ai-engine@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/vue3-semi-ai-engine/-/vue3-semi-ai-engine-1.0.1.tgz#92f2f88318665e842af3a896dec1413c33ef8e52"
-  integrity sha512-izup0tPD3kSA4vYkKuc9vZPVALENYz51X6PwuCoWPLwwfbXwy+UdNRmAa6fwt5W0DHp5p77j0AQGcX3RkNmjsQ==
+vue3-semi-ai-engine@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vue3-semi-ai-engine/-/vue3-semi-ai-engine-1.0.3.tgz#20f9c3d778e5573da32b705dc5b75a0653f299e0"
+  integrity sha512-+j9Q/av/nvUhWzdD3KS7iwsXa3eEYd7FI+GWjSAp2JuMSPlKw3ybJLK0fhmCmcVSNagP+pHKW+kWTMFq+gr3Hw==
   dependencies:
     element-plus "^2.6.0"
 

@@ -4,7 +4,7 @@
       ref="EgFormRef"
       :mode="mode"
       :schemes="Schemes.FormScheme"
-      :rules="Schemes.FormRules || {}"
+      :rules="Constants.FormRules || {}"
       :detail="curDetail"
       :dicts="dicts"
       @onFormChange="handleFormChange"
@@ -21,13 +21,14 @@
   import { storeToRefs } from 'pinia';
   import { ComponentInternalInstance, nextTick, ref } from 'vue';
   import { IFormMode, IOnFormChange } from 'vue3-semi-ai-engine/components/eg-form/_props';
+  import * as Constants from '../_constants';
   import * as Schemes from '../_schemes';
   import { useStoreHook } from '../_useStoreHook';
 
   const storeHook = useStoreHook();
   const { dicts, curDetail, EgFormRef } = storeToRefs(storeHook);
 
-  const mode = ref<IFormMode>('new');
+  const mode = ref<IFormMode>('none');
 
   /** 打开组件时的勾子 */
   function onOpen(props: any) {

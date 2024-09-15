@@ -1,3 +1,5 @@
+import { contactRule } from '@/components/contacts/constants';
+import contacts from '@/components/contacts/index.vue';
 import { IScheme, ISchemeItem } from 'vue3-semi-ai-engine/components/eg-form/_props';
 import { ITableColumn } from 'vue3-semi-ai-engine/components/eg-table/_props';
 
@@ -89,6 +91,14 @@ export const _formBlock1: ISchemeItem[] = [
     type: 'el-checkbox',
     prop: 'skill',
     label: '特长',
+  },
+  {
+    type: 'contacts',
+    prop: 'contacts',
+    label: '联系人',
+    isCustom: true,
+    component: markRaw(contacts),
+    rules: contactRule,
   },
 ];
 

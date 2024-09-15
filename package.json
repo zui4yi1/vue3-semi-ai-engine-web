@@ -42,7 +42,7 @@
     "vue-eslint-parser": "^9.3.1",
     "vue-i18n": "^9.1.9",
     "vue-router": "4",
-    "vue3-semi-ai-engine": "^1.0.1"
+    "vue3-semi-ai-engine": "^1.0.3"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.12",
